@@ -1,7 +1,8 @@
 /**
- * Author: Lane Carson
- *         lcarson3@unl.edu
- * Date: 8/27/2024
+ * Author: Jack Bettey
+ * Date: 09/14/2024
+ *
+ * A simple hello world program in C
  *
  */
 #include <stdlib.h>
@@ -9,8 +10,13 @@
 
 int main(int argc, char **argv) {
 
-  printf("Computer Engineering!\n");
-  printf("Lane Carson!\n");
+    printf("Hello World, my name is Jack Bettey!\n");
+    printf("My major is Computer Science!"\n);
 
-  return 0;
+    //This line prints my name
+    printf("Hello World, my name is Lane Carson!\n");
+    //This line prints my major!
+    printf("My Major is Computer Engineering!\n");
+
+    return 0;
 }
